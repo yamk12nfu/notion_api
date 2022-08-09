@@ -5,6 +5,7 @@ gas で notion api を触ってみる
 ## clasp install
 
 `nvm install --lts`
+
 `npm -i @google/clasp`
 
 ## clasp login
@@ -15,6 +16,6 @@ gas で notion api を触ってみる
 
 下記コマンドで xxx という名前のスクリプトが作成される
 
-`clasp create 'xxx'`
+`clasp create xxx`
 
 `clasp open`でスクリプトを開くことができる。
