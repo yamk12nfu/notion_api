@@ -1,2 +1,0 @@
-const NOTION_TOKEN = "secret_6Ni9muCrgAWm8TB0HYIo6ZZq29nXAKsOpOLmV8HvPqg";
-const DATABASE_ID = "0d73de29c77c4037a7fd12ff6d61488e";
