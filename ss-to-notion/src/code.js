@@ -38,21 +38,3 @@ const notion = (text) => {
 
   return UrlFetchApp.fetch(url, options);
 }
-
-const getNotionDbData = () => {
-  const url = `https://api.notion.com/v1/databases/${DATABASE_ID}/query`;
-
-  let headers = {
-    'content-type' : 'application/json; charset=UTF-8',
-    'Authorization': 'Bearer ' + NOTION_TOKEN,
-    'Notion-Version': '2022-06-28',
-  };
-  let options ={
-    'method': 'post',
-    'headers': headers,
-  }
-
-  const notionData = UrlFetchApp.fetch(url, options);
-  const result = JSON.parse(notionData);
-  return result;
-}
